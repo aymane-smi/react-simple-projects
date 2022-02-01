@@ -1,0 +1,41 @@
+.Item{
+    border: 3px solid #eae6eb;
+    border-radius: 6px;
+    padding: 0.7rem 0 0.8rem 0;
+    color: #102a42;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px 0px;
+    width: 100%;
+    margin: 1.1rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.toggler{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #eae6eb;
+    border-radius: 50%;
+    color:purple;
+}
+.title{
+    font-size: 1.25rem;
+}
+.info{
+    width: 99%;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    text-align: start;
+    padding-left: 10px;
+    color: #9ba8b5;
+}
+
+/* .Item-container{
+    display: flex;
+    flex-direction: column;
+} */
