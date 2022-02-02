@@ -1,0 +1,90 @@
+body{
+    background: #f1f5f8;
+    margin-top: 50px;
+    padding: 0;
+}
+.Experience{
+    font-size: 2.1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1.4px;
+}
+.UnderLine{
+    width: 5%;
+    height: 4px;
+    background-color: #2caeba;
+    border-radius: 3px;
+    margin: 6px auto 60px auto;
+}
+.Loading{
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 30px auto;
+}
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: flex-start;
+    text-align: start;
+    width: 80%;
+    margin: 0 auto;
+}
+.Menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 25%;
+    flex-wrap: wrap;
+}
+.Selector{
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin: 20px 0;
+    transition: all 500ms;
+    padding-left: 20px;
+    border-left: 3px solid transparent;
+    line-height: 2rem;
+}
+.Selector:hover{
+    border-left: 3px solid #2caeba;
+    color: #2caeba;
+    padding-left: 20px;
+}
+.activated{
+    border-left: 3px solid #2caeba;
+    color: #2caeba;
+    padding-left: 20px;
+}
+@media screen and (max-width: 800px){
+    .Menu{
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .Container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Selector{
+        border-left: 0px solid #2caeba;
+        border-bottom: 3px solid transparent;
+        padding-left: 0;
+        padding-bottom: 20px;
+        margin: 0 10px;
+    }
+    .Selector:hover{
+        border-left: 0px solid #2caeba;
+        border-bottom: 3px solid #2caeba;
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+    .activated{
+        border-bottom: 3px solid #2caeba;
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+}

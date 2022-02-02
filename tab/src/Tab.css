@@ -1,0 +1,51 @@
+.Tab{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+    width: 70%;
+}
+.Company{
+    background: #dae2ec;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+    font-weight: 500;
+    color: #617d98;
+}
+.Title{
+    color: #102a42;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 20px 0 10px 0;
+}
+.Dates{
+    color: #8ea2b6;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+.double{
+    color: #2caeba;
+    padding-right: 50px;
+    font-size: 1.6rem;
+}
+.double-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.double-container p{
+    color: #324d67;
+    font-size: 1.05rem;
+}
+@media screen and (max-width: 800px){
+    .Tab{
+        /* flex-direction: row; */
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+    }
+}
