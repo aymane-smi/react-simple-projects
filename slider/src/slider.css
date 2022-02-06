@@ -1,0 +1,21 @@
+.Slider{
+    position: relative;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.btn{
+    color: #ba5d2c;
+    top: 120px;
+    position: absolute;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.right{
+    right: 50px;
+}
+.left{
+    left: 50px;
+}

@@ -1,0 +1,20 @@
+body{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background: #f1f5f8;
+    margin-top: 80px;
+}
+.review{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.slash{
+    color: #ba5d2c;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-right: 20px;
+    transform: rotate(-20deg) translateY(3px);
+}
