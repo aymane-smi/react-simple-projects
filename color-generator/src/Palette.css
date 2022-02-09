@@ -1,0 +1,17 @@
+.color{
+    width: 25%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    margin-top: 80px;
+}
+.color-light{
+    color: white;
+}
